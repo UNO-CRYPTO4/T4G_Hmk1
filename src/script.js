@@ -40,11 +40,12 @@ let myGod = true;
 console.log("Boolean:", myGod);
 
 // I. Variable set to a number and log type
-let numberValue = 100;
-console.log("Number Value:", numberValue);
-console.log("Type of numberValue:", typeof numberValue);
+let unoValue = 100;
+console.log("Number Value:", unoValue);
+console.log("Type of unoValue:", typeof unoValue);
 
 // J. Variable set to a string and log type
-let stringValue = "Uno Tours";
-console.log("String Value:", stringValue);
-console.log("Type of stringValue:", typeof stringValue);
+let tourValue = "Uno Tours";
+console.log("String Value:", tourValue);
+console.log("Type of tourValue:", typeof tourValue);
+
