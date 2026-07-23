@@ -49,3 +49,17 @@ let tourValue = "Uno Tours";
 console.log("String Value:", tourValue);
 console.log("Type of tourValue:", typeof tourValue);
 
+function registrationAlert(username, age, email) {
+  if (age < 12) {
+    return `Hi ${username}, you are ${age} years old and you are too young to register. Sorry 😔😔`;
+  } else if (age >= 12 && age < 18) {
+    return `Hi ${username}, you are ${age} years old and you have limited options to register for. We will keep in touch via your email: ${email} 👋🏽👋🏽`;
+  } else {
+    return `Hi ${username}, you are ${age} years old and you can register for any option of your choosing. We will keep in touch via your email: ${email} 👋🏽👋🏽`;
+  }
+}
+
+// Example usage:
+console.log(registrationAlert("Havier Sanchez", 10, "test@example.com"));
+console.log(registrationAlert("Havier Sanchez", 15, "test@example.com"));
+console.log(registrationAlert("Havier Sanchez", 20, "test@example.com"));
